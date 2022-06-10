@@ -81,12 +81,12 @@
 			<artifactId>miglayout</artifactId>
 			<version>3.7.4</version>
 		</dependency>
-		<dependency>
+	<!--	<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 		</dependency>
 
-	</dependencies>
+	</dependencies>-->
 	<build>
 		<finalName>tasktranslate</finalName>
 	<!-- 	<plugins>
