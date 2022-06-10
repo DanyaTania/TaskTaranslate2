@@ -9,7 +9,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<description>project for titles translation </description>
-	<name>tasktranslate</name>
+	<name>task-translate</name>
 	 <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -55,8 +55,19 @@
 			<artifactId>primefaces</artifactId>
 			<version>11.0.0</version>
 		</dependency>
-		
-		
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.1</version>
+			<!--  <scope>provided</scope>-->
+		</dependency>
+
 	<!-- 	<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -81,14 +92,14 @@
 			<artifactId>miglayout</artifactId>
 			<version>3.7.4</version>
 		</dependency>
-	<!--	<dependency>
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 		</dependency>
--->
+
 	</dependencies>
 	<build>
-		<finalName>tasktranslate</finalName>
+		<finalName>task-translate</finalName>
 	<!-- 	<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
